@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+*{padding:5px}
+
+.p-result{
+	display: inline;
+	margin-top: 3px;
+}
+
+.p-result input{
+	display: inline;
+}
+</style>
+<body>
+
+한글 -> 유니코드
+<input type="text" name="hangul" id="hangul-val">
+<input type="button" name="aa" value="변환" id="transBtn">
+<p class="p-result">결과 :<input type="text" name="unicode" id="unicode-val" size="50"></p>
+<br><br>
+유니코드 -> 한글
+<input type="text" name="unicode2" id="unicode2-val">
+<input type="button" name="aa" value="변환" id="detransBtn">
+<p class="p-result">결과 :<input type="text" name="hangul2" id="hangul2-val" size="50"></p>
+
+<script src="./main.js"></script>
+</body>
+</html>
